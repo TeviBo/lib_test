@@ -5,7 +5,7 @@ with open("README.md") as file:
 excluded_packages = ['infra', 'config', 'utils', 'tests']
 setup(
     name="jokr",
-    version="2.0.0",
+    version="2.0.2",
     author="Esteban Bobbiesi",
     author_email="esteban.bobbiesi@pinapp.tech",
     description="This is an api automation tools package.",
