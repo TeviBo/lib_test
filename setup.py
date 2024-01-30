@@ -12,7 +12,7 @@ setup(
     long_description=read_me_description,
     long_description_content_type="text/markdown",
     url="https://github.com/TeviBo/lib_test.git",
-    packages=find_packages(),
+    packages=find_packages(exclude=excluded_packages),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
