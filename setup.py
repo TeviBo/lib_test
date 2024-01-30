@@ -11,7 +11,7 @@ setup(
     description="This is an api automation tools package.",
     long_description=read_me_description,
     long_description_content_type="text/markdown",
-    url="https://InDigitalpe@dev.azure.com/InDigitalpe/JOKR/_git/jokr_lib",
+    url="https://github.com/TeviBo/lib/modules/*",
     packages=find_packages(include=['lib.modules.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
