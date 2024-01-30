@@ -5,14 +5,14 @@ with open("README.md") as file:
 excluded_packages = ['infra', 'config', 'utils', 'tests']
 setup(
     name="jokr",
-    version="2.0.0",
+    version="2.0.1",
     author="Esteban Bobbiesi",
     author_email="esteban.bobbiesi@pinapp.tech",
     description="This is an api automation tools package.",
     long_description=read_me_description,
     long_description_content_type="text/markdown",
     url="https://github.com/TeviBo/lib_test.git",
-    packages=find_packages(include=['lib.modules.*']),
+    packages=find_packages(include=['lib.modules']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
