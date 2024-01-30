@@ -2,10 +2,10 @@ from setuptools import (setup, find_packages)
 
 with open("README.md") as file:
     read_me_description = file.read()
-excluded_packages = ['infra', 'config', 'utils', 'tests']
+excluded_packages = ['jokr_library/infra', 'jokr_library/config', 'jokr_library/utils']
 setup(
-    name="jokr",
-    version="2.0.2",
+    name="jokr-library",
+    version="2.0.3",
     author="Esteban Bobbiesi",
     author_email="esteban.bobbiesi@pinapp.tech",
     description="This is an api automation tools package.",
