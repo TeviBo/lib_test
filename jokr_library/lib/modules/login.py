@@ -1,7 +1,7 @@
-from infra.api.login import Login
-from infra.controllers.login_controller import LoginController
-from infra.models.app_user_model import AppUserModel
-from lib.modules import HOST, ENV_VARS
+from jokr_library.infra.api.login import Login
+from jokr_library.infra.controllers.login_controller import LoginController
+from jokr_library.infra.models.app_user_model import AppUserModel
+from jokr_library.lib.modules import HOST, ENV_VARS
 from jokr_library.utils.utils import transform_input_string
 
 

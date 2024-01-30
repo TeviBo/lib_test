@@ -1,4 +1,4 @@
-from infra.models.app_user_model import AppUserModel
+from jokr_library.infra.models.app_user_model import AppUserModel
 from jokr_library.utils.data_manager.person_generator.person_factory import PersonFactory
 from jokr_library.utils.logger_base import log
 from jokr_library.utils.utils import transform_input_string

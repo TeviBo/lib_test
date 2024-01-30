@@ -1,6 +1,6 @@
-from infra.api.oauth import OAuth
-from infra.controllers.oauth_controller import OAuthController
-from lib.modules import HOST
+from jokr_library.infra.api.oauth import OAuth
+from jokr_library.infra.controllers.oauth_controller import OAuthController
+from jokr_library.lib.modules import HOST
 
 
 def basic_auth(credentials) -> str:

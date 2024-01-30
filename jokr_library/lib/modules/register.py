@@ -1,10 +1,10 @@
 import ast
 
-from infra.api.register import Register
-from infra.controllers.register_controller import RegisterController
-from lib.modules import HOST, ENV_VARS
-from lib.modules.login import login_user, get_keyboard
-from lib.modules.oauth import basic_auth
+from jokr_library.infra.api.register import Register
+from jokr_library.infra.controllers.register_controller import RegisterController
+from jokr_library.lib.modules import HOST, ENV_VARS
+from jokr_library.lib.modules.login import login_user, get_keyboard
+from jokr_library.lib.modules.oauth import basic_auth
 
 
 # * /// This module contains the functions to register users /// * #

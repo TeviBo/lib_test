@@ -1,5 +1,5 @@
 from jokr_library.infra.adapters.response_adapter import Response
-from infra.api.base_api import BaseAPI
+from jokr_library.infra.api.base_api import BaseAPI
 
 
 class Login(BaseAPI):

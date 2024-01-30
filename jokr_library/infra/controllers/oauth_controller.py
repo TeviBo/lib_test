@@ -1,4 +1,4 @@
-from infra.models.oauth_user_model import OAuthUser
+from jokr_library.infra.models.oauth_user_model import OAuthUser
 from jokr_library.utils.logger_base import log
 
 
