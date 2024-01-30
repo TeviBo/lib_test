@@ -1,1 +1,1 @@
-from .modules import register, login, oauth as jokr
+from modules import *
