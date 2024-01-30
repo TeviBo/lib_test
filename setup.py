@@ -12,7 +12,7 @@ setup(
     long_description=read_me_description,
     long_description_content_type="text/markdown",
     url="https://InDigitalpe@dev.azure.com/InDigitalpe/JOKR/_git/jokr_lib",
-    packages=find_packages(include=['modules']),
+    packages=find_packages(include=['lib.modules.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
