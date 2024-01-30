@@ -4,7 +4,7 @@ with open("README.md") as file:
     read_me_description = file.read()
 excluded_packages = ['infra', 'config', 'utils', 'tests']
 setup(
-    name="jokr-library",
+    name="jokr",
     version="2.0.0",
     author="Esteban Bobbiesi",
     author_email="esteban.bobbiesi@pinapp.tech",
