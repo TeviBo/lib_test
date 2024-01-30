@@ -11,7 +11,7 @@ setup(
     description="This is an api automation tools package.",
     long_description=read_me_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/TeviBo/lib/modules/*",
+    url="https://github.com/TeviBo/lib_test.git",
     packages=find_packages(include=['lib.modules.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
